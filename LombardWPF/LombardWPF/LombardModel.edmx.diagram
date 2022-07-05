@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="082a6592ad8b417b81965271ea14ae1d" Name="Diagram1">
+        <EntityTypeShape EntityType="LombardDBModel.Clients" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LombardDBModel.PaymentSchedule" Width="1.5" PointX="3" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LombardDBModel.PaymentStatus" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LombardDBModel.Products" Width="1.5" PointX="6" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LombardDBModel.ProductType" Width="1.5" PointX="3.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="LombardDBModel.Sales" Width="1.5" PointX="8.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LombardDBModel.Staff" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LombardDBModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="9.125" IsExpanded="true" />
+        <AssociationConnector Association="LombardDBModel.FK_Products_Clients" ManuallyRouted="false" />
+        <AssociationConnector Association="LombardDBModel.FK_PaymentSchedule_PaymentStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="LombardDBModel.FK_PaymentSchedule_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="LombardDBModel.FK_PaymentSchedule_Staff" ManuallyRouted="false" />
+        <AssociationConnector Association="LombardDBModel.FK_Products_ProductType" ManuallyRouted="false" />
+        <AssociationConnector Association="LombardDBModel.FK_Products_Staff" ManuallyRouted="false" />
+        <AssociationConnector Association="LombardDBModel.FK_Sales_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="LombardDBModel.FK_Sales_Staff" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

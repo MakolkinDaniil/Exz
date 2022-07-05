@@ -1,0 +1,18 @@
+﻿<Window x:Class="LombardWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LombardWPF"
+        mc:Ignorable="d"
+        Title="Авторизация" Height="297.353" Width="425" WindowStartupLocation="CenterScreen">
+    <Grid Margin="0,-20,-10,-16" RenderTransformOrigin="0.516,0.487">
+        <Button Content="Авторизоваться" HorizontalAlignment="Left" Margin="108,191,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.027,1.104" Width="97" Click="Authorization_click" Height="30"/>
+        <Button Content="Отмена" HorizontalAlignment="Left" Margin="228,191,0,0" VerticalAlignment="Top" Width="70" Click="Cancel_click" Height="30"/>
+        <Label Content="Логин:" HorizontalAlignment="Left" Margin="96,102,0,0" VerticalAlignment="Top"/>
+        <Label Content="Пароль:" HorizontalAlignment="Left" Margin="91,144,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TBLogin" HorizontalAlignment="Left" Margin="145,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="173"/>
+        <TextBox x:Name="TBPassword" HorizontalAlignment="Left" Margin="145,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="173"/>
+    </Grid>
+
+</Window>
